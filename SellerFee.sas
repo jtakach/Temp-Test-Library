@@ -1,6 +1,7 @@
 @@ -0,0 +1,42 @@
 libname cw odbc dsn=cw schema=dbo;
 libname pipeline odbc dsn=pipeline schema=dbo;
+libname crap odbc dsn=loanad schema=dbo;
 libname fm2 odbc dsn=famcii user='nrvuser' password= '{SAS002}2CB1260D0F86F52D426DA4701594B680' schema=dbo;
 libname fm2sas '\\fmacfile\vol1\sas\output\fmii';
 options validvarname=v7;
